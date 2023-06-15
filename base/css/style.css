@@ -1,0 +1,19 @@
+*{
+	box-sizng: border-box;
+	font: unset;
+	margin: 0;
+}
+
+.inner-column{
+	max-width: 68ch;
+	margin-left: auto;
+	margin-right: auto;
+ 	padding: 20px;
+}
+
+img{
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+}
+
