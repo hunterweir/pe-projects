@@ -1,36 +1,4 @@
-<!doctype html>
-
-<html lang='en'>
-
-	<head>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title> Resume </title>
-		<meta property='og:title' content='Weir Project Dev Practice' >
-		<meta property='og:description' content='A practical example of a new approach to skill building' >
-		<meta property='og:url' content='https://peprojects.dev/alpha-7/hunter/' >
-		<meta property='og:image' content='https://peprojects.dev/alpha-7/hunter/images/kuzu-art.png' >
-		<link rel='stylesheet' href= 'style-sheet.css'>
-		
-	</head>
-
-	<body>
-
-		<header>
-			<div class= 'inner-column'>
-
-				
-				
-				<nav>
-					<a href="index.html">
-						<img src= "https://peprojects.dev/alpha-7/hunter/images/forrest.png">
-					</a>
-					<a href="goals.html">Goals</a>
-					<a href="resume.html">Resume</a>
-					<a href="projects.html">Projects</a>
-					<a href="archive.html">Archive</a>
-					<a href="https://hunterweir.substack.com/">Substack</a>
-				</nav>
+<?php include "header.php" ?>
 				
 				<h1> Hunter Weir </h1>
 
@@ -140,15 +108,5 @@
 			</div>
 		</section>
 
-		</main>
-
-		<footer>			
-			<div class= 'inner-column'>
-				<p> Sign up for my substack below for some potent ponderings</p>
-				<iframe src="https://hunterweir.substack.com/embed" width="380" height="120" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-			</div>
-		</footer>
-
-	</body>
-
-</html>
+<?php include "footer.php" ?>
+		
