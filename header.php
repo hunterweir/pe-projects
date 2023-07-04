@@ -4,7 +4,7 @@
 	<head>
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title> Hunter's Portfolio? </title>
+		<title> Hunter's Portfolio </title>
 		<meta property='og:title' content='Weir Project Dev Practice' >
 		<meta property='og:description' content='A practical example of a new approach to skill building' >
 		<meta property='og:url' content='https://peprojects.dev/alpha-7/hunter/' >
@@ -21,7 +21,7 @@
 
 				<nav>
 					<a href="/">
-						<img src= "https://peprojects.dev/alpha-7/hunter/images/forrest.png"> NEW
+						<img src= "https://peprojects.dev/alpha-7/hunter/images/forrest.png">
 					</a>
 					<a href="goals.php">Goals</a>
 					<a href="resume.php">Resume</a>

@@ -4,7 +4,7 @@
 			</div>
 		</header>
 		
-		<main>
+		<main class= 'shorty'>
 
 		<section class= 'section-one'>
 			<div class= 'inner-column'>
@@ -22,4 +22,4 @@
 			</div>
 		</section>
 
-		<?php include "footer.php" ?>
+<?php include "sticky-footer.php" ?>

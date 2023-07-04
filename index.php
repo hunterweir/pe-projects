@@ -15,7 +15,7 @@
 						<article> 
 							<img src= "https://www.theyshootpictures.com/rw_common/images/hitchcockalfred6.jpg">
 
-        					<h2><a href="goals.html"> Goals </a></h2>
+        					<h2><a href="goals.php"> Goals </a></h2>
 
        						<p>We all have goals, whether we're aware of them or not. Why not make them explicit? Here's my attempt at intentionality & soul-searching.</p>
       					</article>
@@ -32,7 +32,7 @@
 						<article> 
 							<img src= "https://www.theyshootpictures.com/rw_common/images/searchers6.jpg">
 
-        					<h2><a href="resume.html"> Resume </a></h2>
+        					<h2><a href="resume.php"> Resume </a></h2>
 
        						<p>A snapshot of my professional life. What I've learned is there's really no 'hack' for practical skill building.</p>
       					</article>
@@ -50,7 +50,7 @@
 						<article> 
 							<img src= "https://www.theyshootpictures.com/rw_common/images/bergmaningmar01.jpg">
 
-        					<h2><a href="projects.html"> Projects </a></h2>
+        					<h2><a href="projects.php"> Projects </a></h2>
 
        						<p>Not many projects to speak of so far. But I'll have more soon, I can tell you that! Yessiree Bob.</p>
       					</article>
@@ -85,7 +85,7 @@
 						<article> 
 							<img src= "https://www.theyshootpictures.com/rw_common/images/kubrickstanley01.jpg">
 
-        					<h2><a href="archive.html"> Archive </a></h2>
+        					<h2><a href="archive.php"> Archive </a></h2>
 
        						<p>Some past one-off practice pages. Only go here if you're REALLY desparate to know how far I've come. </p>
        						
@@ -96,4 +96,4 @@
 		</section>
 
 
-		<?php include "footer.php" ?>
+<?php include "footer.php" ?>
