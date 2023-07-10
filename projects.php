@@ -1,25 +1,48 @@
 <?php include "header.php" ?>
 
-				<h1>Projects</h1>
-			</div>
-		</header>
-		
-		<main class= 'shorty'>
+	
+		<section class="page-header">
+			<div class="inner-column">
 
-		<section class= 'section-one'>
-			<div class= 'inner-column'>
-				<h2> HTML/CSS Practice Projects </h2>
+				<picture>
+				<img src='https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2019Q1/why-pm-is-important/why-is-project-management-important-header@2x.png'>
+				</picture>
 
-				<ul>
-					<li>
-						<a href='challenge-1/index.html'>Challenge #1 Project</a>
-					</li>
+				<h1 class='loud-voice'>Projects</h1>
 
-					<li> 
-						<a href= 'beths-electric/index.html'> Beth's Electric Website </a>
-					</li>
-				</ul>
 			</div>
 		</section>
 
-<?php include "sticky-footer.php" ?>
+	<main class= 'page-content'>
+
+		<section class= 'project-list'>
+			<div class= 'inner-column'>
+				
+				<div class= 'content'>
+					<picture>
+					<img src='images/void.png'>
+					</picture>
+
+				<div class= 'text'>
+
+				<h2 class= 'attention-voice'><a href='challenge-1/index.html'>Challenge #1 Project</a></h2>
+
+				</div>
+				</div>
+
+				<div class= 'content'>
+					<picture>
+					<img src='images/beths-logo.jpg'>
+					</picture>
+
+				<div class= 'text'>
+
+				<h2 class= 'attention-voice'><a href= 'beths-electric/index.html'> Beth's Electric Website </a></h2>
+
+				</div>		
+				</div>	
+			</div>
+		</section>
+	</main>
+
+<?php include "footer.php" ?>

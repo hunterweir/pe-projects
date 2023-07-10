@@ -1,0 +1,162 @@
+@import "meyer-reset.css";
+@import "setup.css";
+@import "typography.css";
+@import "colors.css";
+
+
+
+/* STRUCTURE*/
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.inner-column{
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+
+
+
+/* SITE HEADER */
+
+header {
+  background-color: var(--header-color);
+}
+
+header .logo {
+  display: block;
+  max-width: 30px;
+}
+
+header .inner-column{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+
+/*PAGE HEADER*/
+
+.page-header {
+  background-color: var(--pink);
+}
+
+.page-header .inner-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media (min-width: 400px) {
+  .page-header .inner-column {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .page-header picture .page-header h1 {
+    flex-basis: 50%;
+  } 
+}
+
+@media (min-width: 1000px) {
+
+  .page-header .inner-column {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+} 
+
+
+/*PAGE CONTENT
+
+
+
+
+/*PROJECT LIST RULES*/
+
+.project-list picture {
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.project-list .content {
+  background-color: var(--wheat);
+  margin-top: 20px;
+}
+
+
+@media (min-width: 400px) {
+
+  .project-list .content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-basis: 50%;
+  }
+
+  .content svg {
+    width: fill;
+  }
+}
+
+@media (min-width: 1000px) {
+
+  .project-list .inner-column {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+
+  .project-list .content{
+    display: flex;
+    flex-direction: column;
+  }
+} 
+
+
+/* FOOTER */
+
+footer {
+  background-color: var(--footer-color);
+}
+
+footer iframe {
+  margin-top: 10px;
+  max-height: 80px;
+  max-width: 100%;
+}
+
+
+
+
+
+/*GENERAL RULES*/
+
+a:hover {
+  color: var(--hover-color);
+}
+
+
+p + a{
+  margin-top: 10px;
+  display: inline-block;
+} 
+
+.content {
+ margin-top: 20px;
+}

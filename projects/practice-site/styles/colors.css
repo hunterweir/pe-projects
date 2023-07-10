@@ -1,0 +1,18 @@
+
+header {
+	--header-color: salmon;
+}
+
+footer {
+	--footer-color: navy;
+}
+
+a {
+	--hover-color: dodgerblue;
+}
+
+html {
+	--pink: lightpink;
+	--wheat: wheat;
+}
+

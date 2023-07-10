@@ -1,5 +1,5 @@
 
-</main>
+
 
 		<footer>			
 			<div class= 'inner-column'>
@@ -9,5 +9,4 @@
 		</footer>
 
 	</body>
-
 </html>

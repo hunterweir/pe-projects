@@ -1,0 +1,108 @@
+*{
+  box-sizng: border-box;
+  font: unset;
+  margin: 0;
+}
+
+.inner-column{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 55px;
+  font-family: Rockwell;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size : 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: 545;
+}
+
+h4 {
+  font-size : 20px;
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-weight: 545;
+  color: white;
+}
+
+em {
+  font-style: italic;
+}
+
+header {
+  background-color: #007a33;
+  text-align: center;
+}
+
+header img {
+  max-width: 300px;
+}
+
+header p {
+   margin-top: 20px;
+   font-size: 16px;
+   font-family: sans-serif;
+   color: white;
+}
+
+section p {
+  font-family: Garamond;
+    line-height: 1.5;
+   margin-top: 20px;
+   font-size: 18px;
+  max-width: 68ch
+}
+
+ul {
+  list-style-type: none;
+}
+
+section li {
+  line-height: 1.5;
+  font-family: Garamond;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+section img {
+  max-width:300px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #007a33;
+  display: block;
+  vertical-align: middle;
+}
+
+footer p{
+    margin-top: 20px;
+   font-size: 16px;
+   font-family: sans-serif;
+   color: white;
+}
+
+footer iframe {
+  margin-top: 20px;
+    width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 400px) {
+  header p { /* if the screen is at least 600px wide, apply this rule */
+    font-size: 22px;}}
+
+    

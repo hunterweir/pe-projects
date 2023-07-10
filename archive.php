@@ -1,47 +1,27 @@
 <?php include "header.php" ?>
 
-				<h1>Archive</h1>
-			</div>
-		</header>
-		
-		<main class= 'shorty'>
+	
+		<section class="page-header">
+			<div class="inner-column">
 
+				<picture>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fondos_archivo.jpg/580px-Fondos_archivo.jpg">
+				</picture>
+
+				<h1 class='loud-voice'>Archive</h1>
+
+			</div>
+		</section>
 		
-		<section class= 'section-one'>
+		
+	<main class= 'page-content'>
+		
+		<section class= 'middle'>
 			<div class= 'inner-column'>
 
-				<h2>HTML/CSS Practice</h2>
-
-				<ul> 
-					<li>
-						<a href='archive/discovery-zone.html'>Four Weird pages</a>
-					</li>
-
-					<li>
-						<a href='archive/aol.html'>See The Best Web Portal Ever</a>
-					</li>
-
-					<li>
-						<a href='archive/first-html-attempt.html'>View My First HTML Page</a>
-					</li>
-
-					<li>
-						<a href='archive/adventure/good-stuff.html'>HTML Recommender Adventure</a>
-					</li>
-
-					<li>
-						<a href='archive/gobble-gobble.html'>Gobble Gobble</a>
-					</li>
-
-					<li>
-						<a href='archive/one-page-website.html'>My 1-page website</a>
-					</li>
-
-					<li>
-						<a href='archive/css-reset.html'>CSS Reset Embed</a>
-					</li>
-				</ul>
+				<?php include "archive-projects-list.php"?>			
 			</div>
 		</section>	
+	</main>
 
-<?php include "sticky-footer.php" ?>
+<?php include "footer.php" ?>

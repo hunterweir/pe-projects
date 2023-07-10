@@ -1,0 +1,43 @@
+
+
+ul, p, .calm-voice {
+	font-size: 1.2rem;
+	line-height: 1.3;
+	max-width: 80ch;
+}
+
+.moderate-voice {
+	font-size: 1.5rem;
+	line-height: 1.3;
+	max-width: 80ch;	
+}
+
+.attention-voice {
+	font-size: 1.7rem;
+	line-height: 1.3;
+	max-width: 80ch;	
+}
+
+.loud-voice {
+	font-size: 2rem;
+	line-height: 1.3;
+	max-width: 80ch;	
+}
+
+footer p{
+  color: white;
+}
+
+header nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+@media (min-width: 600px) {
+  .loud-voice {
+    font-size: 50px;
+  }
+}
+

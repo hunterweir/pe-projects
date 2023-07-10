@@ -9,23 +9,24 @@
 		<meta property='og:description' content='A practical example of a new approach to skill building' >
 		<meta property='og:url' content='https://peprojects.dev/alpha-7/hunter/' >
 		<meta property='og:image' content='https://peprojects.dev/alpha-7/hunter/images/kuzu-art.png' >
-		<link rel='stylesheet' href= 'style-sheet.css'>
+		<link rel='stylesheet' href='styles/site.css'>
 		
 	</head>
 
 	<body>
-		<header>
-			<div class= 'inner-column'>
-
-				
+		<header class='site-header'>
+			<div class='inner-column'>
+				<a class='logo' href="index.php">
+					<img src= "https://peprojects.dev/alpha-7/hunter/images/forrest.png">
+				</a>
 
 				<nav>
-					<a href="/">
-						<img src= "https://peprojects.dev/alpha-7/hunter/images/forrest.png">
-					</a>
 					<a href="goals.php">Goals</a>
 					<a href="resume.php">Resume</a>
 					<a href="projects.php">Projects</a>
-					<a href="archive.php">Archive</a>
+					<a href="layout-garden.php">Layout Garden</a>
+					<a href='../index.php'>Biz Card Page</a>
 					<a href="https://hunterweir.substack.com/">Substack</a>	
 				</nav>
+			</div>
+		</header>
