@@ -5,7 +5,7 @@
 			<div class="inner-column">
 
 				<picture>
-				<img src='https://www.incimages.com/uploaded_files/image/1920x1080/shutterstock_318915104_360067.jpg'>	
+				<img src='/images/barry-slouching.png'>	
 				</picture>
 		
 				<h1 class='loud-voice'>Goals</h1>

@@ -31,7 +31,7 @@ main {
 /* SITE HEADER */
 
 header {
-  background-color: var(--header-color);
+  background-image: url("/images/binary.png")
 }
 
 header .logo {
@@ -44,8 +44,6 @@ header .inner-column{
   flex-direction: row;
   align-items: center;
 }
-
-
 
 
 /*PAGE HEADER*/
@@ -132,7 +130,7 @@ header .inner-column{
 /* FOOTER */
 
 footer {
-  background-color: var(--footer-color);
+  background-image: url("/images/void.png");
 }
 
 footer iframe {

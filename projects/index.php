@@ -1,87 +1,48 @@
+<?php include "../header.php" ?>
 
-
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-
-		<title>Projects</title>
-		<meta name='description' content='peprojects.dev/alpha-7/hunter'>
-		<meta property='og:image' content='projects/images/kuzu-art.png'>
 	
-		<link rel='stylesheet' href='css/style.css'>
-	</head>
+		<section class="page-header">
+			<div class="inner-column">
 
-<!doctype html>
+				<picture>
+				<img src='/images/kuzu-art.png'>
+				</picture>
 
-
-	<body>
-
-		<header class='site-header'>
-			<div class='inner-column'>
-
-			<h1 class='attention-voice'>Projects</h1>
-
-
-			</div>
-		</header>	
-
-		<main class= 'page-content'>	
-
-
-		<section class= 'page-header'>
-			<div class= 'inner-column'>
-
-			<ul> 
-				<li>
-					<a class='link' href='../index.php'>
-						<project-card> 
-							<h2 class= 'loud-voice'>Home</h2>
-
-							<p>(Biz Card Page)</p>
-						</project-card>
-					</a>
-				</li>
-
-				<li>
-					<a class='link' href='practice-site/index.php'>
-						<project-card> 
-							<h2 class= 'loud-voice'>Practice Site:</h2>
-
-							<p>DFTW HTML, CSS & PHP Practice</p>
-						</project-card>
-					</a>
-				</li>
-
-				<li>
-					<a class='link' href='https://codepen.io/hunterweir/pen/KKrNrBE' target='responsive'>
-						<project-card> 
-							<h2 class= 'loud-voice'>Ecomorphic Eudaimonia</h2>
-
-							<p>My first fully responsive page attempt</p>
-						</project-card>
-					</a>
-				</li>
-
-
-
-			
+				<h1 class='loud-voice'>Projects</h1>
 
 			</div>
 		</section>
 
-		
+	<main class= 'page-content'>
 
-		</main>	
-		
-		<footer>
+		<section class= 'project-list'>
 			<div class= 'inner-column'>
+				
+				<div class= 'content'>
+					<picture>
+					<img src='/images/void.png'>
+					</picture>
 
-			<h2 class= 'attention-voice'> FOOTER </h2>
+				<div class= 'text'>
 
+				<h2 class= 'attention-voice'><a href='challenge-1/index.html'>Challenge #1 Project</a></h2>
+
+				</div>
+				</div>
+
+				<div class= 'content'>
+					<picture>
+					<img src='/images/beths-logo.jpg'>
+					</picture>
+
+				<div class= 'text'>
+
+				<h2 class= 'attention-voice'><a href= 'beths-electric/index.html'> Beth's Electric Website </a></h2>
+
+				</div>		
+				</div>	
 			</div>
-		</footer>
+		</section>
+	</main>
 
-		
-	</body>
-</html>
+<?php include "../footer.php" ?>
