@@ -78,7 +78,7 @@ header .inner-column{
 } 
 
 
-/*PAGE CONTENT
+
 
 
 
@@ -91,36 +91,33 @@ header .inner-column{
   overflow: hidden;
 }
 
-.project-list .content {
-  background-color: var(--wheat);
-  margin-top: 20px;
-}
+
 
 
 @media (min-width: 400px) {
 
-  .project-list .content{
+  .project-card{
     display: flex;
     flex-direction: row;
     gap: 10px;
     flex-basis: 50%;
   }
 
-  .content svg {
+  .project svg {
     width: fill;
   }
 }
 
 @media (min-width: 1000px) {
 
-  .project-list .inner-column {
+  .project-list {
   display: flex;
   flex-direction: row;
   gap: 20px;
   
 }
 
-  .project-list .content{
+  .project-card{
     display: flex;
     flex-direction: column;
   }
@@ -155,6 +152,6 @@ p + a{
   display: inline-block;
 } 
 
-.content {
+.project {
  margin-top: 20px;
 }

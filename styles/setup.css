@@ -11,3 +11,16 @@ img {
 picture{
   display: block;
 }
+
+
+
+projects-grid{
+  border: 5px solid blue;
+  display: flex;
+}
+
+.project-list{
+  border: 5px solid green;
+}
+
+
