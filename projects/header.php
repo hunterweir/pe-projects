@@ -5,10 +5,10 @@
 		<meta charset='utf-8'>
 		<meta name='viewport' content='width=device-width, initial-scale=1'>
 		<title> Hunter's Portfolio </title>
-		<meta property='og:title' content='Weir Project Dev Practice' >
-		<meta property='og:description' content='A practical example of a new approach to skill building' >
-		<meta property='og:url' content='https://peprojects.dev/alpha-7/hunter/' >
-		<meta property='og:image' content='https://peprojects.dev/alpha-7/hunter/images/kuzu-art.png' >
+		<meta property='og:title' content="Hunter's Practice Site">
+		<meta property='og:description' content='See Hunter. See Hunter code. Code, Hunter, Code!'>
+		<meta property='og:url' content='https://peprojects.dev/alpha-7/hunter'>
+		<meta property='og:image' content='../images/kuzu-art.png' >
 		<link rel='stylesheet' href='../styles/site.css'>
 		
 	</head>
@@ -26,7 +26,7 @@
 					<a href="index.php">Projects</a>
 					<a href="../archive/layout-garden.php">Layout Garden</a>
 					<a href="../archive/index.php">Archive</a>
-					<a href="https://hunterweir.substack.com/">Substack</a>	
+					<a href="https://hunterweir.substack.com/" target="substack">Substack</a>	
 				</nav>
 			</div>
 		</header>

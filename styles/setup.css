@@ -12,15 +12,10 @@ picture{
   display: block;
 }
 
-
-
 projects-grid{
-  border: 5px solid blue;
-  display: flex;
+  display: inline-block;
 }
 
-.project-list{
-  border: 5px solid green;
-}
+
 
 

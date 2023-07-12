@@ -80,6 +80,37 @@
 
 
 
+<?php
+
+
+$price = 34;
+
+$tax = $price * .10;
+
+$total = $price + $tax;
+
+echo "<h1>" . $total . "</h1>";
+
+$percent = 30;
+
+echo "<h2> Percent tip: " . $percent . "%</h2>";
+
+if ($percent > 20) {
+	echo "Wowza what a tippa!"; 
+}
+
+$tip = $total * ($percent/100);
+
+$total = $total + $tip;
+
+echo "<p>The total is: $" . $total . "</p>";
+
+?>
+
+<p>Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem <?php echo $total; ?> Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem <?=$total?> Lorem Lorem Lorem</p>
+
+
+
 
 
 	</body>

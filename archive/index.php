@@ -5,7 +5,7 @@
 			<div class="inner-column">
 
 				<picture>
-				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Fondos_archivo.jpg/580px-Fondos_archivo.jpg">
+				<img src="../images/first-image-attempt.jpg">
 				</picture>
 
 				<h1 class='loud-voice'>Archive</h1>
@@ -14,10 +14,9 @@
 		</section>
 		
 		
-	<main class= 'page-content'>
-		
-		<section class= 'middle'>
-			<div class= 'inner-column'>
+	<main class='page-content'>
+		<section class='my-projects'>
+			<div class='inner-column'>
 
 			<?php include "archive-projects-list.php" ?>
 
