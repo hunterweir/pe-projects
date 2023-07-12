@@ -31,7 +31,7 @@ main {
 /* SITE HEADER */
 
 header {
-  background-image: url("/images/binary.png")
+  background-image: url("../images/binary.png")
 }
 
 header .logo {
@@ -130,7 +130,7 @@ header .inner-column{
 /* FOOTER */
 
 footer {
-  background-image: url("/images/void.png");
+  background-image: url("../images/void.png");
 }
 
 footer iframe {

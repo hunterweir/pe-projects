@@ -5,7 +5,7 @@
 			<div class="inner-column">
 
 				<picture>
-				<img src='/images/barry-slouching.png'>	
+				<img src='images/barry-slouching.png'>	
 				</picture>
 		
 				<h1 class='loud-voice'>Goals</h1>

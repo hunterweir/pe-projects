@@ -1,11 +1,11 @@
-<?php include "../header.php" ?>
+<?php include "header.php" ?>
 
 	
 		<section class="page-header">
 			<div class="inner-column">
 
 				<picture>
-				<img src='/images/kuzu-art.png'>
+				<img src='../images/kuzu-art.png'>
 				</picture>
 
 				<h1 class='loud-voice'>Projects</h1>
@@ -20,7 +20,7 @@
 				
 				<div class= 'content'>
 					<picture>
-					<img src='/images/void.png'>
+					<img src='../images/void.png'>
 					</picture>
 
 				<div class= 'text'>
@@ -32,7 +32,7 @@
 
 				<div class= 'content'>
 					<picture>
-					<img src='/images/beths-logo.jpg'>
+					<img src='../images/beths-logo.jpg'>
 					</picture>
 
 				<div class= 'text'>
