@@ -1,0 +1,76 @@
+@import '../../meyer-reset.css';
+@import 'type.css';
+@import 'setup.css';
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #5193FF;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.inner-column{
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.creature img {
+  max-width: 250px;
+  max-height: 250px;
+  overflow: hidden;
+}
+
+creature-card{
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+
+.creature {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid green;
+}
+
+.my-projects {
+  border: 5px solid yellow;
+}
+
+
+@media (min-width: 600px) {
+
+  creature-card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-basis: 25%;
+  }
+
+  .creature {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+  .creature {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  
+}
+
+  creature-card{
+    display: flex;
+    flex-direction: column;
+  }
+}

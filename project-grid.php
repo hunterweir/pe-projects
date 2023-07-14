@@ -58,11 +58,11 @@
 
 
       <div class='text'>
-      <h2 class='attention-voice'><a href="archive.php">Archive</a></h2>
+      <h2 class='attention-voice'><a href="archive/index.php">Archive</a></h2>
 
       <p>Some past one-off practice pages. Only go here if you're REALLY desparate to know how far I've come.<p>
 
-      <a href="archive.php">Learn More</a>
+      <a href="archive/index.php">Learn More</a>
         </div>
       </article>
     </li>

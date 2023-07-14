@@ -1,0 +1,13 @@
+*{
+  box-sizng: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+creature-card {
+  display: inline-block;
+}
