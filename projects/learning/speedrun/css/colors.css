@@ -1,0 +1,27 @@
+
+html {
+	--ink: purple;
+	--paper: wheat;
+
+	--color: red;
+
+	-neutral: lightgray;
+}
+
+
+
+/*
+@media (prefers-color-scheme: dark) {
+
+
+html {
+	--ink: wheat;
+	--paper: purple;
+
+	--color: red;
+
+	-neutral: lightgray;
+	}
+}
+
+/*

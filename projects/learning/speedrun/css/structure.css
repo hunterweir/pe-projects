@@ -1,0 +1,17 @@
+body {
+	border: 1px solid blue;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+	flex-grow:  1;
+}
+
+inner-column {
+	display: block;
+	max-width: 900px;
+	margin-inline: auto;
+	padding: 10px;
+}
