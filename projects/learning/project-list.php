@@ -8,7 +8,7 @@
 
 		<div class='text'>
 
-		<h2 class='attention-voice'><a href='challenge-1/index.html'>Challenge #1 Project</a></h2>
+		<h2 class='attention-voice'><a href='speedrun/index.php'>Speedrun</a></h2>
 
 		</div>
 		</article>
@@ -22,7 +22,7 @@
 
 	<div class='text'>
 
-	<h2 class='attention-voice'><a href='beths-electric/index.html'> Beth's Electric Website </a></h2>
+	<h2 class='attention-voice'><a href='form-practice/index.php'>Form Practice</a></h2>
 
 	</div>		
 	</article>
@@ -36,24 +36,11 @@
 
 	<div class='text'>
 
-	<h2 class='attention-voice'><a href='monsters/index.php'> Monsters </a></h2>
+	<h2 class='attention-voice'><a href='hello-form/index.php'> Hello Form </a></h2>
 
 	</div>		
 	</article>
 	</li>
-
-	<li class='project'>
-		<article class='project-card'>
-		<picture>
-		<img src='../images/void.png'>
-		</picture>
-
-	<div class='text'>
-
-	<h2 class='attention-voice'><a href='learning/index.php'> Practice </a></h2>
-
-	</div>		
-	</article>
-	</li>	
+	
 </ul>
 </projects-grid>
