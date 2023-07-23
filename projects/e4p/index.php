@@ -1,11 +1,11 @@
-<?php include "header.php" ?>
+<?php include "../../header.php" ?>
 
 	
 	<section class="page-header">
 		<div class="inner-column">
 
 			<picture>
-			<img src='../images/kuzu-art.png'>
+			<img src='../../images/default-meta.png'>
 			</picture>
 
 			<h1 class='loud-voice'>Projects</h1>
@@ -17,10 +17,10 @@
 	<section class= 'my-projects'>
 		<div class= 'inner-column'>
 			
-		<?php include "project-list.php" ?>
+		<?php include "../../modules/forms-list.php" ?>
 
 		</div>
 	</section>
 </main>
 
-<?php include "../footer.php" ?>
+<?php include "../../footer.php" ?>

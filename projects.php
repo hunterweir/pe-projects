@@ -8,7 +8,7 @@
 				<img src='images/barry-slouching.png'>	
 				</picture>
 		
-				<h1 class='loud-voice'>Goals</h1>
+				<h1 class='loud-voice'>Projects</h1>
 				
 			</div>
 		</section>
@@ -17,7 +17,7 @@
 		<section class='my-projects'>
 			<div class='inner-column'>
 				
-				<?php include 'modules/goals-list.php' ?>
+				<?php include 'modules/project-list.php' ?>
 
 			</div>
 		</section>

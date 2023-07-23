@@ -5,7 +5,7 @@
 			<div class="inner-column">
 
 				<picture>
-				<img src="../images/first-image-attempt.jpg">
+				<img src="images/first-image-attempt.jpg">
 				</picture>
 
 				<h1 class='loud-voice'>Archive</h1>
@@ -18,10 +18,10 @@
 		<section class='my-projects'>
 			<div class='inner-column'>
 
-			<?php include "archive-projects-list.php" ?>
+			<?php include "modules/archive-projects-list.php" ?>
 
 			</div>
 		</section>	
 	</main>
 
-<?php include "../footer.php" ?>
+<?php include "footer.php" ?>

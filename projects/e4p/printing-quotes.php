@@ -32,8 +32,8 @@
 	<button type='submit' name='mashed' /> Click me</button>
 </form>
 
-<?php if (!empty($quote) ) {
-	if (!empty($author) ) 
+<?php if (!empty($quote) ) 
+	if (!empty($author) ) {
  ?>
 <output>
 	<p> <?=$author?> says, "<?=$quote?>."</p>

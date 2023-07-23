@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "../header.php" ?>
 			
 
 	<section class="page-header">
@@ -12,6 +12,8 @@
 				<li class='calm-voice'> hunterweir@gmail.com </li>
 
 				<li class='calm-voice'> Phone # </li>
+
+				<li> <a href='https://github.com/hunterweir/' target="git">Github</a> </li>
 
 			</ul>
 		</div>
@@ -112,5 +114,5 @@
 	</section>
 </main>
 
-<?php include "footer.php" ?>
+<?php include "../footer.php" ?>
 	

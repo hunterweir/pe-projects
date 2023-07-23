@@ -5,31 +5,31 @@
 	<section class='my-projects'>
 		<div class='inner-column'>
 
-			<?php include"../goals-list.php"?>			
+			<?php include"modules/goals-list.php"?>			
 		</div>
 	</section>
 
 	<section class='my-projects'>
 	<div class='inner-column'>
 
-		<?php include "../project-grid.php"?>			
+		<?php include "modules/project-grid.php"?>			
 	</div>
 	</section>	
 
 	<section class='my-projects'>
 		<div class='inner-column'>
 
-			<?php include"archive-projects-list.php"?>			
+			<?php include"modules/archive-projects-list.php"?>			
 		</div>
 	</section>	
 
 	<section class='my-projects'>
 		<div class='inner-column'>
 
-			<?php include "../projects/project-list.php" ?>
+			<?php include "modules/project-list.php"?>
 		
 		</div>
 	</section>	
 </main>
 
-<?php include "../footer.php" ?>
+<?php include "footer.php" ?>

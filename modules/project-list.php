@@ -3,12 +3,12 @@
 	<li class='project'>
 		<article class='project-card'>
 		<picture>
-		<img src='../images/void.png'>
+		<img src='../projects/monsters/images/codey.jpg'>
 		</picture>
 
 		<div class='text'>
 
-		<h2 class='attention-voice'><a href='speedrun/index.php'>Speedrun</a></h2>
+		<h2 class='attention-voice'><a href='../projects/monsters/index.php'>Monsters</a></h2>
 
 		</div>
 		</article>
@@ -22,7 +22,7 @@
 
 	<div class='text'>
 
-	<h2 class='attention-voice'><a href='form-practice/index.php'>Form Practice</a></h2>
+	<h2 class='attention-voice'><a href='../projects/beths-electric/index.html'>Beth's Electric</a></h2>
 
 	</div>		
 	</article>
@@ -31,12 +31,12 @@
 	<li class='project'>
 		<article class='project-card'>
 		<picture>
-		<img src='../images/void.png'>
+		<img src='../images/e4p.png'>
 		</picture>
 
 	<div class='text'>
 
-	<h2 class='attention-voice'><a href='hello-form/index.php'> Hello Form </a></h2>
+	<h2 class='attention-voice'><a href='../projects/e4p/index.php'> E4P </a></h2>
 
 	</div>		
 	</article>
