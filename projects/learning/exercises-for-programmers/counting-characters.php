@@ -1,32 +1,35 @@
 <?php
-	
+
 	$name = "";
 
-	if ( isset($_POST["submitted"]) ) {
+	if (isset($_POST["pushed"]) ) {
 
-		if (isset($_POST["val"]) ) {
-			$name = $_POST["val"];
-		}
+		if (isset($_POST["string"]) ) {
+			$name = $_POST["string"];
+		}	
 	}
 ?>
 
+
 <a href="?">Refresh</a>
 
-<form method='POST'>
+<form method="POST">
 	<div class='field'>
-		<label>What is your name?</label>
-		<input type='text' name='val' />
+		<label> What is the input string?</label>
+		<input type= "text" name='string' />
 	</div>
 
-	<button type='submit' name='submitted'/>Submit</button>
+	<button type='submit' name='pushed' /> Push me</button>
 </form>
 
-<?php if (!empty($name) ) { ?>
-<output>
-	<p> Hello, <?=$name?>, nice to meet you! </p>
 
+<?php if (!empty($name) ) {
+ ?>
+<output>
+	<p> <?=$name?> has <?=strlen($name)?> characters </p>
 </output>
 <?php } ?>
+
 
 <style>
 	form {
@@ -49,6 +52,7 @@
 		display: block;
 		background-color: lightgrey;
 		padding: 10px;
+		max-width: 400px;
 	}
 
 </style>

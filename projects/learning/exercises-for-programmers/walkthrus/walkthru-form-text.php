@@ -1,12 +1,13 @@
 <?php
 
-$inputString = "";
+	$inputString = "";
 
-//input?
-if ( isset($_POST) ) {
-	$inputString = $_POST["submitted"];
-}
-
+	if ( isset($_POST["submitted"]) ) {
+	
+	if (isset($_POST["myString"])) {
+		$inputString = $_POST["myString"];
+		}
+	}
 ?>
 
 <a href="?">Refresh</a>
