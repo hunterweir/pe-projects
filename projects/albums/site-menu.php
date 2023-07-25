@@ -1,5 +1,5 @@
 
 <nav class='site-menu'>
-	<a href='?page=home'>Albums</a>
-	<a href='?page=details'>Details</a>
+	<a href='?page=home'>Home</a>
+	<a href='?page=list'>Albums</a>
 </nav>

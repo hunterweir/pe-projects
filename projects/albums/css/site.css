@@ -1,0 +1,40 @@
+@import 'reset.css';
+@import 'setup.css';
+
+body {
+	background-color: salmon;
+	padding: 20px;
+}
+
+nav a {
+	text-decoration: underline;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	padding: 10px;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+.page-content {
+	border: 1px dashed limegreen;
+}
+
+album-card {
+	display: block;
+	border: 1px solid gray;
+	padding: 10px;
+}
+
+album-card a {
+	text-decoration: underline;
+}
+.album + .album {
+	margin-top: 30px;
+}
