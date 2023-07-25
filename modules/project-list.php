@@ -42,5 +42,20 @@
 	</article>
 	</li>
 	
+	<li class='project'>
+		<article class='project-card'>
+		<picture>
+		<img src='../projects/ultra-responsive/images/square.jpg'>
+		</picture>
+
+	<div class='text'>
+
+	<h2 class='attention-voice'><a href='../projects/ultra-responsive/index.php'> Ultra Responsive Site </a></h2>
+
+	</div>		
+	</article>
+	</li>	
+
+
 </ul>
 </projects-grid>

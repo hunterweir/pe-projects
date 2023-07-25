@@ -1,0 +1,54 @@
+@import "reset.css";
+@import "structure.css";
+@import "typography.css";
+@import "colors.css";
+
+*{
+	box-sizng: border-box;
+}
+
+footer {
+	padding-bottom: 100px;
+}
+
+footer, header {
+	background-color: var(--neutral);
+}
+
+body {
+	color: var(--ink);
+	background-color: var(--paper);
+}
+
+img{
+	display: block;
+	max-width: 100%;
+	max-height: auto;
+}
+
+masthead {
+	display: block;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+masthead .nav {
+	border: 3px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+masthead a {
+	border: 3px solid black;
+	padding: 10px;
+}
+
+@media (min-width: 600px) {
+	masthead {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

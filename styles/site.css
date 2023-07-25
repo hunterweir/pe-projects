@@ -28,9 +28,6 @@ main {
 
 /*Biz Card Page*/
 
-.card-header, .card-body {
-  border: 5px solid red;
-}
 
 .card-header h2 {
     margin-top: 10px;

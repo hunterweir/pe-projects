@@ -16,7 +16,8 @@
 		<header>
 			<inner-column>
 
-				<?php include('components/site-menu.php'); ?>HEADER
+				<?php include('components/
+					site-menu.php');?>
 
 			</inner-column>
 		</header>

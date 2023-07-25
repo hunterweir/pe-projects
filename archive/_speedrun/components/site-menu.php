@@ -40,5 +40,4 @@ $projects = [
 		gap: 20px;
 	}
 
-
 </style>
