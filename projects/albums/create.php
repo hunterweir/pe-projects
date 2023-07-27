@@ -9,23 +9,39 @@
 
 <form method='POST'>
 	<field>
-		<label>Type</label>
-		<input>
+		<label>ID</label>
+		<input type='number' name='id' required>
 	</field>
 
 	<field>
-		<label>Range</label>
-		<input type='range' min='1' max='5'>
+		<label>Artist</label>
+		<input type='text' name='artist' required>
+	</field>
+
+	<field>
+		<label>Album</label>
+		<input type='text' name='text' required>
+	</field>
+
+	<field>
+		<label>Year</label>
+		<input type='number' name='year' required>
 	</field>
 
 	<field>
 		<label>Price</label>
-		<input type='number'>
+		<input type='number' name='price' required>
+	</field>
+
+	<field>
+		<label>Picture</label>
+		<input type='text' name='pic' required>
 	</field>
 
 	<button type='submit' name='add'>
 		Add Album
 	</button>
 </form>
+
 
 
