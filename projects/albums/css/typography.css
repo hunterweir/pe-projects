@@ -1,0 +1,19 @@
+
+.loud-voice {
+	font-family: helvetica;
+	font-size: 3.2rem;
+	font-weight: 700;
+	max-width: 84ch;
+}
+
+.attention-voice, h2, h3 {
+	font-family: helvetica;
+	font-size: 2rem;
+	max-width: 84ch;
+}
+
+.calm-voice, p, h4, h5 {
+	font-family: garamond;
+	font-size: 1.1rem;
+	max-width: 84ch;
+} 

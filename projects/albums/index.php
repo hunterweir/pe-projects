@@ -1,45 +1,14 @@
 
-<!DOCTYPE html>
+<?php include ('header.php'); ?>
 
-<?php
-	/* router */
-	$page = null;
-	if (isset($_GET['page']) ){
-		$page = $_GET['page']; // url?page=string
-	} else {
-		$page = "home";
-	}
-?>
+<section>
+	<inner-column>
+<?php getTemplate($page); ?>
+	</inner-column>
+</section>	
 
-<html lang='en'>
-	<head>
-		<meta charset='utf-8'>
-		<meta name='viewport' content='width=device-width, initial-scale=1'>
-		<title> Albums </title>
-		<!-- Add meta tags as practice? -->
-		<link rel='stylesheet' href='css/site.css'>
-	</head>
+<?php include ('footer.php'); ?>
 
-	<body>
-		<header>
-		<?php include('site-menu.php');?>
-		</header>
-
-		<main class='page-content'>
-			<?php
-				if($page == 'home') {
-					include ('home.php');
-				}
-				if ($page == 'list') {
-					include ('list.php');
-				}
-				if ($page == 'detail') {
-					include ('detail.php');
-				}				
-			?>
-		</main>
-	</body>
-</html>
 		
 
 	

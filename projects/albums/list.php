@@ -1,23 +1,34 @@
-<?php include ('album-data.php'); ?>
+<?php include ('components/album-data.php'); ?>
 
+<h1 class="loud-voice">Albums</h1>
 
-<h1>Albums</h1>
+	<album-list>		
+		<ul>
+			<?php foreach ($album_data as $album) { ?>
+			<?php 
+				$price = "$" . number_format($album["price"], 2, ".", ",");
+			?>
+				<li class='album'> 
+					<album-card>
+						<h2 class='artist'><?=$album["artist"]?></h2>
+						<h3 class='title'> <?=$album["title"]?></h3>
+						<p class='year'><?=$album["year"]?></p>
+						<p class='price'><?=$price?></p>
+						<a href='?page=detail&album=<?=$album["id"]?>'>Find out more!</a>
+					</album-card>
+				</li>
+			<?php } ?>
+		</ul>
+	</album-list>
 
+<style>
+	album-list {
+		display: block;
+	}
 
-<ul>
-	<?php foreach ($album_data as $album) { ?>
-		<?php 
-			$price = "$" . number_format($album["price"], 2, ".", ",");
-		?>
-	<li class='album'> 
-		<album-card>
-			<h2 class='artist'><?=$album["artist"]?></h2>
-			<h3 class='title'> <?=$album["title"]?></h3>
-			<h4 class='year'><?=$album["year"]?></h4>
-			<h5 class='price'><?=$price?></h5>
-			<a href='?page=detail&album=<?=$album["id"]?>'>Find out more!</a>
-		</album-card>
-	</li>
-	<?php } ?>
-</ul>
-
+	album-list ul {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 20px;
+	}
+</style>

@@ -1,5 +1,4 @@
 
-
 <picture>
 	<img src='images/square.jpg'>
 </picture>

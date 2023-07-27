@@ -8,7 +8,6 @@
 		<title>Speedrun Practice</title>
 		<meta name='description' content='[[insert description]]'>
 		<meta property='og:image' content='images/default.png'>
-	
 		<link rel='stylesheet' href='css/site.css'>
 	</head>
 
@@ -17,7 +16,7 @@
 			<inner-column>
 
 				<?php include('components/
-					site-menu.php');?>
+					site-menu.php'); ?>
 
 			</inner-column>
 		</header>
