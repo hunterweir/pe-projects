@@ -43,6 +43,7 @@ picture + p{
 
 detail-card picture{
 	max-width: 500px;
+	min-width: 200px;
 }
 
 @media (min-width:800px) {
@@ -61,7 +62,7 @@ detail-card picture{
 }
 
 nav a {
-	text-decoration: underline;
+	font-family: helvetica;
 }
 
 nav {
@@ -71,9 +72,6 @@ nav {
 nav a {
 	padding: 10px;
 }
-
-
-
 
 album-card a {
 	text-decoration: underline;

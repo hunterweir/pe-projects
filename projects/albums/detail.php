@@ -21,10 +21,10 @@
 					<img src="<?=$detail['pic']?>" alt='$todo'>
 				</picture>	
 
-				<h1 class='loud-voice'><?=$detail["artist"]?>- <?=$detail["title"]?></h1>
+				<h1 class='loud-voice'><?=$detail["artist"]?>- <cite><?=$detail["title"]?></cite></h1>
 
 				
-				<p> This album came out in <?=$detail["year"]?> and you can go back to the previous page to see the price for technical reasons I can't disclose!!!</p>
+				<p><?=$detail['desc']?></p>
 			</detail-card>
 
 <?php } else { ?>

@@ -10,9 +10,11 @@
 			?>
 				<li class='album'> 
 					<album-card>
-						<h2 class='artist'><?=$album["artist"]?></h2>
-						<h3 class='title'> <?=$album["title"]?></h3>
-						<p class='year'><?=$album["year"]?></p>
+						<picture>
+							<img src="<?=$album['pic']?>">
+
+						</picture>
+						<h2 class='artist'><?=$album["artist"]?>- <cite><?=$album["title"]?></cite></h2>
 						<p class='price'><?=$price?></p>
 						<a href='?page=detail&album=<?=$album["id"]?>'>Find out more!</a>
 					</album-card>

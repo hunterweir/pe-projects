@@ -7,33 +7,67 @@
 	box-sizng: border-box;
 }
 
-footer {
-	padding-bottom: 100px;
+body * {
+	border: 1px solid black;
 }
 
-footer, header {
+footer {
+	padding-bottom: 100px;
 	background-color: var(--neutral);
 }
 
+header {
+	background-color: var(--green);
+}
+
+.welcome {
+	background-color: var(--blue);
+}
+
+.call-to-action {
+	background-color: var(--pink);
+}
+
 body {
-	color: var(--ink);
 	background-color: var(--paper);
 }
 
-img{
+h1, h2 {
+	margin-top: 20px;
+}
+
+h1 + p {
+	margin-top: 20px;
+}
+
+h2 + p {
+	margin-top: 20px;
+}
+
+p + p {
+	margin-top: 10px;
+}
+
+p, h1, h2 {
+	padding: 10px;
+}
+
+picture, img{
 	display: block;
 	max-width: 100%;
 	max-height: auto;
 }
 
+project-card, text-box {
+	display: block;
+}
+
 masthead {
 	display: block;
-	border: 3px solid black;
 	padding: 10px;
 }
 
-masthead .nav {
-	border: 3px solid black;
+masthead .nav {	
 	padding: 10px;
 	display: flex;
 	flex-direction: row;
@@ -41,7 +75,6 @@ masthead .nav {
 }
 
 masthead a {
-	border: 3px solid black;
 	padding: 10px;
 }
 
@@ -51,4 +84,30 @@ masthead a {
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
+	.welcome inner-column {
+		display: flex;
+		flex-direction: row-reverse;
+		flex-basis: 50%;
+		gap: 10px;
+	}
+
+	.welcome text-box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	footer span {
+		display: flex; 
+		flex-direction: row;
+	}
+
+	footer ul {
+		display: flex;
+		flex-direction: column;
+
+	}
+	
 }
+

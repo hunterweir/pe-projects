@@ -17,7 +17,7 @@ $cards = [
 
 			<li>
 				<project-card>
-					<h1><?=$card["name"]?></h1>
+					<h1 class= 'loud-voice'><?=$card["name"]?></h1>
 					<p><?=$card["desc"]?></p>
 					<p><?=$card["url"]?><p>
 				</project-card>

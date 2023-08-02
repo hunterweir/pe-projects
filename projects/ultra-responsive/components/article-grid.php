@@ -46,7 +46,7 @@ $projects = [
 
 			<li>
 				<project-card>
-					<h1><?=$pjct["name"]?></h1>
+					<h2 class= 'attention-voice'><?=$pjct["name"]?></h1>
 					<p><?=$pjct["desc"]?></p>
 					<p><?=$pjct["url"]?><p>
 				</project-card>

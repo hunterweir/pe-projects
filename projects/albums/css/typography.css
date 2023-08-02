@@ -3,17 +3,25 @@
 	font-family: helvetica;
 	font-size: 3.2rem;
 	font-weight: 700;
-	max-width: 84ch;
+	max-width: 75ch;
 }
 
 .attention-voice, h2, h3 {
 	font-family: helvetica;
 	font-size: 2rem;
-	max-width: 84ch;
+	max-width: 75ch;
 }
 
 .calm-voice, p, h4, h5 {
 	font-family: garamond;
 	font-size: 1.1rem;
-	max-width: 84ch;
+	max-width: 75ch;
 } 
+
+cite {
+	font-style: italic;
+}
+
+nav a {
+	font-family: helvetica;
+}

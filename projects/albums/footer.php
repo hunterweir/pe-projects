@@ -1,9 +1,9 @@
 	</main>
 		
 		<footer>			
-			<div class= 'inner-column'>
+			<inner-column>
 				<?php include('components/site-menu.php'); ?>
-			</div>
+			</inner-column>
 		</footer>
 	</body>
 </html>
