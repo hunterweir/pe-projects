@@ -1,0 +1,80 @@
+/* 
+	BTW in case it isn't obvious... the whole PSSST-CSS idea is a joke 
+	like... (it's just CSS)
+*/
+
+/* P reset */
+@import "preset.css";
+
+/* S etup */
+@import "setup.css";
+
+/* S ettings */
+@import "settings.css";
+@import "developer-styles.css";
+
+/* S tructure */
+@import "structure.css";
+
+/* T ypography */
+@import "typography.css";
+
+/* C omponents */
+@import "components.css";
+
+/* S tuff (modules) */
+@import "modules.css";
+
+/* S ections and more stuff */
+
+/* then other contextual styles */
+body {
+	background-color: var(--paper);
+	color: var(--ink);
+}
+
+section:is(.sign-up, .get-involved) inner-column {
+	max-width: var(--tight);
+}
+
+section.get-involved {
+	background-color: var(--highlight);
+}
+
+
+footer, header{
+	background-color: var(--color);
+	color: var(--white);
+}
+
+section .latest header {
+	background-color: var(--light-color);
+}
+
+section.welcome {
+	background-color: var(--highlight);
+	color: var(--black);
+}
+
+section .button {
+	background-color: var(--color);
+	color: var(--white);
+}
+
+
+@media (prefers-color-scheme: dark) {
+	section.sign-up {
+		background-color: var(--color);
+		color: var(--white);
+	}
+
+	section.sign-up .button {
+		background-color: var(--black);
+		color: var(--white);
+	}
+
+	section.get-involved {
+		background-color: var(--highlight);
+		color: var(--black);
+	}
+}
