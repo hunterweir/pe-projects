@@ -1,25 +1,21 @@
 <?php include "header.php" ?>
 			
+	<main id='page-content'>
+		<section class='welcome' id='welcome'>
+			<inner-column>
 
-		<section class="page-header">
-			<div class="inner-column">
-
-				<picture>
-				<img src='images/barry-slouching.png'>	
-				</picture>
-		
-				<h1 class='loud-voice'>Projects</h1>
+				<?php include('modules/graphic-diptych/template.php'); ?>
 				
-			</div>
+			</inner-column>
 		</section>
 
-	<main class='page-content'>
+	
 		<section class='my-projects'>
-			<div class='inner-column'>
+			<inner-column>
 				
-				<?php include 'modules/project-list.php' ?>
+				<?php include 'modules/projects-intro/template.php' ?>
 
-			</div>
+			</inner-column>
 		</section>
 	</main>	
 

@@ -2,6 +2,7 @@
 @import "setup.css";
 @import "typography.css";
 @import "colors.css";
+@import "modules.css";
 
 
 
@@ -17,7 +18,7 @@ main {
   flex-grow: 1;
 }
 
-.inner-column{
+inner-column{
   width: 100%;
   max-width: 800px;
   margin-left: auto;
@@ -42,7 +43,7 @@ main {
 /* SITE HEADER */
 
 header {
-  background-image: url("../images/binary.png")
+  background-color: #041E42;
 }
 
 header .logo {
@@ -50,7 +51,7 @@ header .logo {
   max-width: 30px;
 }
 
-header .inner-column{
+header inner-column{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -59,34 +60,11 @@ header .inner-column{
 
 /*PAGE HEADER*/
 
-.page-header {
+.welcome {
   background-color: var(--pink);
 }
 
-.page-header .inner-column {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 
-@media (min-width: 400px) {
-  .page-header .inner-column {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .page-header picture .page-header h1 {
-    flex-basis: 50%;
-  } 
-}
-
-@media (min-width: 1000px) {
-
-  .page-header .inner-column {
-    align-items: flex-start;
-    flex-direction: row;
-  }
-} 
 
 
 
@@ -134,7 +112,7 @@ header .inner-column{
 /* FOOTER */
 
 footer {
-  background-image: url("../images/void.png");
+  background-color: #041E42;
 }
 
 footer iframe {

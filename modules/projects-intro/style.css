@@ -1,0 +1,21 @@
+
+projects-intro {
+	display: block;
+	border: 4px solid purple;
+	padding: 10vh 0;
+}
+
+articles-intro heading {
+	border: 1px solid black;
+}
+
+project-grid {
+	display: block;
+	margin-top: 60px;
+}
+
+project-grid ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	grid-gap: 60px 20px;
+}
