@@ -33,3 +33,7 @@ svg {
   display: block;
   width: 100%;
 }
+
+a.home {
+	border-right: 5px solid white;
+}

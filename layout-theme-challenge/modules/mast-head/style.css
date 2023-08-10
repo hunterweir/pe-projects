@@ -1,7 +1,6 @@
 
 mast-head {
 	display: block;
-	/*border: 4px solid blue;*/
 }
 
 mast-head .logo {
@@ -23,7 +22,7 @@ mast-head nav .home {
 }
 
 mast-head nav a:not(.home) {
-	padding: .5em 1em;
+	padding: .5em .5em;
 }
 
 @media (min-width:  600px) {

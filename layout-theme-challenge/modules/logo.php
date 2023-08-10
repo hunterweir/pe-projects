@@ -1,5 +1,5 @@
 
-<svg class='logo' viewBox="0 0 476 100" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
+<svg class='logo' viewBox="0 0 676 100" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
 
 	<circle cx="50" cy="50" r="50"/>
 
