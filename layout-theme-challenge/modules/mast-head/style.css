@@ -4,11 +4,12 @@ mast-head {
 }
 
 mast-head .logo {
-	max-width: 180px;
+	max-width: 165px;
+	fill: var(--white);
 }
 
-mast-head .logo * {
-	fill: var(--white);
+mast-head a{
+	font-size: .75rem;
 }
 
 mast-head nav ul {
@@ -18,18 +19,40 @@ mast-head nav ul {
 }
 
 mast-head nav .home {
-	padding: 10px 0;
+	padding: 10px;
+	
 }
 
 mast-head nav a:not(.home) {
-	padding: .5em .5em;
+	padding: .5em 1em;
 }
 
-@media (min-width:  600px) {
+mast-head .site-menu li:first-of-type {
+	border-right: 3px solid white;
+}
+	
+
+mast-head a.button  {
+	display: none;
+	background-color: transparent;
+	border: 3px solid var(--lime-green);
+	border-radius: 5px;
+	padding: 10px;
+}
+
+@media (min-width: 600px) {
 	mast-head {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
 	}
+
+	mast-head a.button  {
+	display: block
+	}
+
+	mast-head a{
+	font-size: 1rem;
+}
 }
