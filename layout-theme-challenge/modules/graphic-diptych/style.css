@@ -8,27 +8,21 @@ graphic-diptych {
 }
 
 graphic-diptych p {
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
-graphic-diptych text-content {
-	display: block;
-	background-color: rgba(94,143,92,.75);
-	position: relative;
-	top: 50px;
-	padding: 10px;
-}
-
-@media (min-width:  600px) {
+@media (min-width:  700px) {
 	graphic-diptych {
 		flex-direction: row;
 		align-items: center;
 	}
 
-	graphic-diptych :is(picture, text-content) {
-		flex-basis: 50%;
+	graphic-diptych picture{
+		flex-basis: 75%;
 	}
 
 	graphic-diptych text-content {
-		left: 30px;	
+		flex-basis: 25%;
+	}
 }
+

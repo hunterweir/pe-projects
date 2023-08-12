@@ -47,6 +47,7 @@ footer{
 	color: var(--white);
 }
 
+
 header{
 	background: linear-gradient(.25turn, var(--color), var(--light-color));
 	color: var(--white);
@@ -55,15 +56,16 @@ header{
 heading {
 	display: block;
 	color: var(--color);
-	background-color: var(--highlight);
-	padding: 10px;
 }
 
 section.welcome {
 	background-color: var(--highlight);
+    
+    /*
     background-image: url("https://civileats.com/wp-content/uploads/2019/09/190905-regenerative-agriculture-herbicides-pesticides-no-til-farming-healthy-soil-roots-nrcs-oregon-2.jpg");
 	background-size: cover;
-	color: var(--white);
+	*/
+	color: var(--color);
 }
 
 section .button {
@@ -94,7 +96,5 @@ a:hover {
 
 	heading {
 	color: var(--white);
-	background-color: var(--color);
-	padding: 10px;
 }
 }
