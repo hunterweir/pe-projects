@@ -1,9 +1,11 @@
 
 
 		<footer>			
-			<div class= 'inner-column'>
-				<p>Serious Footer</p>
-			</div>
+			<inner-column>
+				
+				<?php include('modules/site-map/template.php'); ?>
+
+			</inner-column>
 		</footer>
 
 	</body>

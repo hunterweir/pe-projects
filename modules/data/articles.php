@@ -1,6 +1,6 @@
 <?php
 
-$projects = [
+$articles = [
 	[
 		"heading" => "Albums",
 		"description" => "Recent project about albums!",

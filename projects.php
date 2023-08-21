@@ -10,10 +10,10 @@
 		</section>
 
 	
-		<section class='my-projects'>
+		<section class='latest' id='latest'>
 			<inner-column>
 				
-				<?php include 'modules/projects-intro/template.php' ?>
+				<?php include 'modules/articles-intro/template.php' ?>
 
 			</inner-column>
 		</section>

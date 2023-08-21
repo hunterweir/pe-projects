@@ -17,19 +17,10 @@
 
 	<body>
 		
-		<header class='site-header'>
+		<header id='top'>
 			<inner-column>
-				<a class='logo' href="index.php">
-					<img src= "images/forrest.png">
-				</a>
-
-				<nav>
-					<a href="goals.php">Goals</a>
-					<a href="resume/index.php">Resume</a>
-					<a href="projects.php">Projects</a>
-					<a href="responsive-layout-garden.php">Layout Garden</a>
-					<a href="archive.php">Archive</a>
-					<a href="https://hunterweir.substack.com/" target="substack">Substack</a>	
-				</nav>
+				
+				<?php include('modules/mast-head/template.php'); ?>
+				
 			</inner-column>
 		</header>

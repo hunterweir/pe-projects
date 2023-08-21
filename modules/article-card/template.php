@@ -1,11 +1,11 @@
 
 <?php
-	$heading = $project['heading'];
-	$description = $project['description'];
-	$thumbnail = $project['thumbnail'];
+	$heading = $article['heading'];
+	$description = $article['description'];
+	$thumbnail = $article['thumbnail'];
 ?>
 
-<project class='project-card'>
+<article class='article-card'>
 	<picture>
 		<img src='images/<?=$thumbnail?>' alt='$todo'>
 	</picture>
@@ -17,4 +17,4 @@
 
 		<a class='button' href='#'>Call to action</a>
 	</text-content>
-</project>
+</article>
