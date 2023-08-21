@@ -1,0 +1,28 @@
+html {
+	--black: #111111;
+	--white: #ffffff;
+
+	--neutral-stuffs: gray;
+
+	--color: #15432D;
+	--light-color: #3D8646;
+	--highlight: #e6f1d4;
+	--lime-green: #8cc63f;
+
+	--shadow: rgba(0, 0, 0, 0.8);
+
+	--corners: 10px; /* or whatevers */
+
+	--paper: var(--white);
+	--ink: var(--black);
+
+	--standard: 1140px;
+	--tight: 800px;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		--paper: #21262a;
+		--ink: #ffffff;
+	}
+}
