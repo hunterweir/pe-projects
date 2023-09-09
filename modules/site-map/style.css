@@ -1,0 +1,15 @@
+
+site-map {
+	display: block;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	grid-gap: 20px;
+
+	padding: 10vh 0 15vh;
+}
+
+site-map .logo {
+	max-width: 180px;
+	margin-bottom: 20px;
+}

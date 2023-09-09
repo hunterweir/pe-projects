@@ -1,0 +1,22 @@
+
+html {
+	background-color: grey;
+}
+
+picture {
+	display: block;
+	overflow: hidden;
+	max-width: 100px;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  max-width: 20px;
+}

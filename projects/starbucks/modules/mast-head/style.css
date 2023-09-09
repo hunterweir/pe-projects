@@ -1,0 +1,32 @@
+
+mast-head {
+	display: block;
+	border: 1px solid blue;
+}
+
+mast-head .logo {
+	max-width: 40px;
+}
+
+mast-head nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+mast-head nav .home {
+	padding: 10px 0;
+}
+
+mast-head nav a:not(.home) {
+	padding: .5em 1em;
+}
+
+@media (min-width: 600px) {
+	mast-head {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

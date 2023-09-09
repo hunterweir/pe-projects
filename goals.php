@@ -2,7 +2,7 @@
 			
 
 		<section class="page-header">
-			<div class="inner-column">
+			<inner-column>
 
 				<picture>
 				<img src='images/barry-slouching.png'>	
@@ -10,16 +10,16 @@
 		
 				<h1 class='loud-voice'>Goals</h1>
 				
-			</div>
+			</inner-column>
 		</section>
 
 	<main class='page-content'>
 		<section class='my-projects'>
-			<div class='inner-column'>
+			<inner-column>
 				
 				<?php include 'modules/goals-list.php' ?>
 
-			</div>
+			</inner-column>
 		</section>
 	</main>	
 

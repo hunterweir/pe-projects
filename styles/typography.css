@@ -28,12 +28,8 @@ ul, p, .calm-voice {
 	max-width: 80ch;	
 }
 
-footer p{
-  color: white;
-}
 
 header nav a {
-  color: white;
   text-decoration: none;
   font-family: Arial;
   padding: 5px;

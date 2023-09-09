@@ -4,9 +4,9 @@
     <section class='card-header'>
        	<inner-column>
         
-       		<h1 class='loud-voice'>Howdy, I'm Hunter Weir</h1>
+       		<h1 class='loud-voice'>Hunter Weir</h1>
 
-          <h2 class='attention-voice'> I design websites your clients enjoy using</h2>
+          <h2 class='attention-voice'>I design things for the web</h2>
   
       </inner-column>
     </section>

@@ -2,7 +2,7 @@
 
 	
 		<section class="page-header">
-			<div class="inner-column">
+			<inner-column>
 
 				<picture>
 				<img src="images/first-image-attempt.jpg">
@@ -10,17 +10,17 @@
 
 				<h1 class='loud-voice'>Archive</h1>
 
-			</div>
+			</inner-column>
 		</section>
 		
 		
 	<main class='page-content'>
 		<section class='my-projects'>
-			<div class='inner-column'>
+			<inner-column>
 
 			<?php include "modules/archive-projects-list.php" ?>
 
-			</div>
+			</inner-column>
 		</section>	
 	</main>
 
