@@ -28,3 +28,7 @@
 			</ul>
 	</top-section>
 </footer-section>
+
+<form>
+	<h2>Subscribe</h2>
+		
