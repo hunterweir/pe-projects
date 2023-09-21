@@ -32,6 +32,8 @@
 	<button type='submit' name='mashed' /> Click me</button>
 </form>
 
+<script src='printing-quotes.js'></script> 
+
 <?php if (!empty($quote) ) 
 	if (!empty($author) ) {
  ?>

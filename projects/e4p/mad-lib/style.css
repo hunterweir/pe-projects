@@ -1,0 +1,31 @@
+
+body {
+	padding: 20px;
+}
+
+form, field {
+	display: grid;
+	justify-content: start;
+}
+
+form {
+	gap: 20px;
+}
+
+field.text input {
+	font: inherit;
+	padding: .5em 1em;
+}
+
+output {
+	display: block;
+	padding: 20px;
+	background-color: grey;
+	font-family: sans-serif;
+	margin-top: 40px;
+	max-width: 50%;
+}
+
+output:empty {
+	display: none;
+}
