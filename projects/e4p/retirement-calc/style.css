@@ -1,4 +1,4 @@
-	
+
 body {
 	padding: 20px;
 }
@@ -14,7 +14,7 @@ form {
 
 field.text input {
 	font: inherit;
-	padding: .5em 1em;
+	padding: .5 1em;
 }
 
 output {
@@ -24,7 +24,7 @@ output {
 	color: white;
 	font-family: sans-serif;
 	margin-top: 30px;
-	max-width: 10ch;
+	max-width: 34ch;
 }
 
 output:empty {
