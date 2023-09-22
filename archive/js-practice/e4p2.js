@@ -11,7 +11,7 @@ $form.addEventListener('submit', function(event) {
 event.preventDefault();
 
 if ($input.value) {
-	var message = `${$input.value} has ${$input.value.length} characters.`;
+	var message = `"${$input.value}" has ${$input.value.length} characters.`;
 
 	$outlet.innerHTML = `<p>${message}</p>`;
 } else {

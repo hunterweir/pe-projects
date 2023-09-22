@@ -3,7 +3,7 @@ body {
 	padding: 20px;
 }
 
-form, fleid {
+form, field {
 	display: grid;
 	justify-content: start;
 }
@@ -12,7 +12,7 @@ form {
 	gap: 20px;
 }
 
-fleid.text input {
+field.text input {
 	font: inherit;
 	padding: .5em 1em;
 }
@@ -21,10 +21,10 @@ output {
 	display: block;
 	padding: 20px;
 	background-color: black;
-	color: orange;
+	color: white;
 	font-family: sans-serif;
 	margin-top: 30px;
-	max-width: 50%;
+	max-width: 10ch;
 }
 
 output:empty {
