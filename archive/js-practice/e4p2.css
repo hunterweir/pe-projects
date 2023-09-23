@@ -3,7 +3,7 @@ body {
 	padding: 20px;
 }
 
-form, fleid {
+form, field {
 	display: grid;
 	justify-content: start;
 }
@@ -12,7 +12,7 @@ form {
 	gap: 20px;
 }
 
-fleid.text input {
+field.text input {
 	font: inherit;
 	padding: .5em 1em;
 }

@@ -8,7 +8,7 @@ form, field {
 	justify-content: start;
 }
 
-form {
+form{
 	gap: 20px;
 }
 
@@ -24,7 +24,7 @@ output {
 	color: white;
 	font-family: sans-serif;
 	margin-top: 30px;
-	max-width: 34ch;
+	max-width: 28ch;
 }
 
 output:empty {
