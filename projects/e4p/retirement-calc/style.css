@@ -12,9 +12,10 @@ form {
 	gap: 20px;
 }
 
-field.text input {
+field.number input {
 	font: inherit;
 	padding: .5em 1em;
+	margin-top: 10px;
 }
 
 output {
